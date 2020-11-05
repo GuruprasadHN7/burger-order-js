@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 600px;
+    height: 450px;
+    border: 2px solid transparent;
+    margin-top: 20px;
+    position: relative;
+}
+.price-section{
+    position: absolute;
+    top:10%;
+    left:10%;
+    background-color:#f9f9f9;
+    width:400px;
+    height:100px;
+    border-radius: 5px;
+    padding:10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+.bread {
+    width: 80%;
+    background-color: rgba(223, 126, 0, 0.993);
+    height: 60px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-bottom: 4px;
+    margin: 0 auto;
+}
+
+.meat {
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 4px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 10px;
+}
+
+.spinach {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(35, 151, 0);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 4px;
+    margin-top: 10px;
+}
+
+.bacon {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(170, 0, 0);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 4px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 10px;
+}
+
+.breadbottom {
+
+    width: 80%;
+    background-color: rgba(223, 126, 0, 0.993);
+    height: 60px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-bottom: 4px;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+.order-container {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: orangered;
+    border: none;
+    padding: 15px 35px;
+    cursor: pointer;
+    margin: 10px 0;
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 20px;
+    color: #fff;
+}
+.btn:focus {
+    outline:none;
+}
